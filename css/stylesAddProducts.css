@@ -1,0 +1,55 @@
+input:focus,
+textarea:focus {
+	outline-color: #5d4037;
+}
+
+#title-container {
+	border: 100%;
+}
+
+#title {
+	text-align: center;
+	border-style: solid;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #5d4037;
+	color: white;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#form-container {
+	padding: 5px;
+}
+
+input {
+	color: #5d4037;
+	padding: 10px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	display: block;
+	text-align: left;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	margin: 5px;
+	width: 100%;
+}
+
+#btn-guardar {
+	background-color: #5d4037;
+	color: white;
+	font-family: "Georgia", sefif;
+	padding: 8px;
+	border-radius: 5px;
+	margin: 5px;
+	margin-left: 38%;
+}
+
+#btn-salir {
+	background-color: #5d4037;
+	color: white;
+	font-family: "Georgia", sefif;
+	padding: 8px;
+	border-radius: 5px;
+	margin: 5px;
+}

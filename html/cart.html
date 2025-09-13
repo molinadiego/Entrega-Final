@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Tu Carrito de Compras</title>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+		/>
+		<link rel="stylesheet" href="../css/stylesCart.css" />
+	</head>
+	<body>
+		<h1>🛒 Mi Carrito</h1>
+		<div id="cart-items" class="cart-container"></div>
+		<div id="cart-summary" class="cart-total"></div>
+		<div class="btn-pagar-volver">
+			<button class="btn-pay" id="btnPay">Pagar</button>
+			<button class="btn-back" id="btnBack" onclick="history.back()">
+				Volver
+			</button>
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+		<script type="module" src="../javascript/message.js"></script>
+		<script type="module" src="../javascript/cart.js"></script>
+	</body>
+</html>

@@ -1,0 +1,136 @@
+body {
+	font-family: sans-serif;
+	margin: 2rem;
+	background-color: #f4f4f4;
+	color: #333;
+}
+
+h1 {
+	text-align: center;
+	color: #5d4037;
+}
+
+.cart-container {
+	border: 1px solid #ccc;
+	padding: 1rem;
+	border-radius: 8px;
+	background-color: #fff;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item {
+	display: flex;
+	justify-content: last baseline;
+	align-items: center;
+	padding: 0.75rem 0;
+	border-bottom: 1px solid #eee;
+}
+
+.cart-item:last-child {
+	border-bottom: none;
+}
+
+.cart-total {
+	font-weight: bold;
+	margin-top: 1.5rem;
+	text-align: right;
+	font-size: 1.1rem;
+	background-color: #fff;
+	padding: 1rem;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cart-total p {
+	margin: 0.5rem 0;
+}
+
+.btn-pagar-volver {
+	display: flex;
+	align-content: center;
+}
+.btn-pay {
+	align-items: center;
+	margin-right: 2px;
+}
+.btn-back {
+	align-items: center;
+	margin-left: 2px;
+}
+button {
+	display: block;
+	width: 100%;
+	max-width: 200px;
+	margin: 1.5rem auto 0;
+	padding: 10px 15px;
+	background-color: #5d4037;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 1rem;
+	transition: background-color 0.3s ease;
+}
+
+button:hover {
+	background-color: #5d4040;
+}
+
+.button-content {
+	width: 200px;
+	margin-left: auto;
+}
+
+.btn-Delete {
+	margin-right: 5px;
+	margin-top: 5px;
+	width: 80px;
+	background-color: #dc3545;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	padding: 5px 10px;
+	cursor: pointer;
+	font-size: 0.8rem;
+	transition: background-color 0.3s ease;
+}
+
+.btn-plus {
+	margin-right: 5px;
+	margin-top: 5px;
+	width: 80px;
+	background-color: #17b61a;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	padding: 5px 10px;
+	cursor: pointer;
+	font-size: 0.8rem;
+	transition: background-color 0.3s ease;
+}
+
+.btn-minus {
+	margin-right: 5px;
+	margin-top: 5px;
+	width: 80px;
+	background-color: #dc3545;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	padding: 5px 10px;
+	cursor: pointer;
+	font-size: 0.8rem;
+	transition: background-color 0.3s ease;
+}
+
+.btn-Delete:hover {
+	background-color: #c82333;
+}
+
+.btn-minus:hover {
+	background-color: #c82333;
+}
+
+.btn-plus:hover {
+	background-color: #0f9122;
+}
