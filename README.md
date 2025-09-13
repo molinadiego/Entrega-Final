@@ -8,3 +8,4 @@ En el proyecto se utiliza:
 - Funciones de orden superior.
 - Asincronia.
 - Libreria externa (sweetalert).
+- Consumo de un archivo Json en lugar de una API con fetch().
