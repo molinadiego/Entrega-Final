@@ -1,6 +1,6 @@
 // Llama a esta función una vez al inicio de tu script
 
-import { messageSuccess } from "./message.js";
+import { messageSuccess, mostrarToast } from "./message.js";
 import {
 	getCartFromStorage,
 	getProducts,
@@ -55,6 +55,7 @@ function fillCart(name, quantity) {
 		productExist.quantity += quantity;
 		productExist.totalprice = productExist.price * productExist.quantity;
 		product.stock = product.stock - quantity;
+		mostrarToast("success", product.name + " fue agredado al carrito!");
 		saveProductsOnLocalStorage(products);
 		return [, products];
 	}
@@ -72,6 +73,7 @@ function fillCart(name, quantity) {
 			totalprice: totalprice,
 		});
 		product.stock = product.stock - quantity;
+		mostrarToast("success", product.name + " fue agredado al carrito!");
 		saveProductsOnLocalStorage(products);
 		return [, products];
 	} else {
