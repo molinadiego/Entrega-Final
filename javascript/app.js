@@ -178,7 +178,7 @@ btnSearch.addEventListener("click", (e) => {
 
 cartBtn.addEventListener("click", () => {
 	if (qty !== 0) {
-		window.location.href = "cart.html";
+		window.location.href = "./html/cart.html";
 		qty = 0;
 		cartQty.textContent = "🛒 (" + qty + ")";
 		cart = [];
