@@ -16,7 +16,6 @@ let priceTotalWithTax = 0;
 let priceWithDiscount = 0;
 
 // Simulador entrega #1.
-//const btnAddCart = document.querySelectorAll(".add-to-cart-btn");
 const cartQty = document.querySelector(".cart-btn");
 const cartBtn = document.querySelector(".cart-btn");
 const txtSearch = document.getElementById("txtSearch");
@@ -27,7 +26,7 @@ let qty = 0;
 
 function fillCartButton(cartFromStorage) {
 	if (cartFromStorage) {
-		cart = cartFromStorage; //JSON.parse(cartFromStorage);
+		cart = cartFromStorage;
 		for (let item of cart) {
 			qty = item.quantity + qty;
 		}
@@ -43,7 +42,6 @@ function fillCartButton(cartFromStorage) {
 
 function fillCart(name, quantity) {
 	let products = getProductsFromStorage();
-	//products = JSON.parse(products);
 	const exist = cart.some((item) => item.name === name);
 	const product = products.find((product) => product.name === name);
 	if (product === undefined) {
@@ -124,10 +122,6 @@ function renderProducts(productsParam) {
 		const productInfo = document.createElement("div");
 		productInfo.className = "product-info";
 
-		//const productType = document.createElement("h2");
-		//productType.className = "product-type";
-		//productType.textContent = item.type;
-
 		const productName = document.createElement("h3");
 		productName.className = "product-title";
 		productName.textContent = item.name;
@@ -155,7 +149,6 @@ function renderProducts(productsParam) {
 		productInfo.appendChild(btnAddCart);
 
 		productCard.appendChild(img);
-		//productCard.appendChild(productType);
 		productCard.appendChild(productInfo);
 
 		if (item.type === "vino") {
@@ -184,10 +177,6 @@ cartBtn.addEventListener("click", () => {
 		cart = [];
 	}
 });
-
-//btnAdd.addEventListener("click", () => {
-//	window.location.href = "add-products.html";
-//});
 
 document.addEventListener("DOMContentLoaded", async () => {
 	// Asume que 'products' está cargado aquí
