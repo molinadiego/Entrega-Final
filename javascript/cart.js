@@ -88,7 +88,6 @@ function renderCart() {
 		btnPlus.textContent = "+ Sumar";
 		btnPlus.className = "btn-plus";
 		btnPlus.setAttribute("data-name", item.name);
-		//btnPlus.setAttribute("data-totalprice", item.totalprice);
 
 		const btnMinus = document.createElement("button");
 		btnMinus.textContent = "- Restar";

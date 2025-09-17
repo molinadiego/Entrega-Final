@@ -2,7 +2,7 @@
 	{
 		"id": 1,
 		"name": "Concha y Toro",
-		"image": "../images/conchaytoro.webp",
+		"image": "./images/conchaytoro.webp",
 		"description": "Un robusto Cabernet Sauvignon con notas de cereza y un final a chocolate, perfecto para acompañar carnes rojas.",
 		"price": 9.99,
 		"stock": 50,
@@ -11,7 +11,7 @@
 	{
 		"id": 2,
 		"name": "Santa Carolina",
-		"image": "../images/santa-carolina.webp",
+		"image": "./images/santa-carolina.webp",
 		"description": "Un suave y afrutado Merlot de la Reserva de Familia, con taninos sedosos y un toque de ciruela.",
 		"price": 15.5,
 		"stock": 35,
@@ -20,7 +20,7 @@
 	{
 		"id": 3,
 		"name": "Viña Montes",
-		"image": "../images/vina-montes.webp",
+		"image": "./images/vina-montes.webp",
 		"description": "Un vibrante Sauvignon Blanc con aromas de pomelo y hierbas, ideal para mariscos y quesos suaves.",
 		"price": 18.75,
 		"stock": 42,
@@ -29,7 +29,7 @@
 	{
 		"id": 4,
 		"name": "Errazuriz",
-		"image": "../images/errazuriz.webp",
+		"image": "./images/errazuriz.webp",
 		"description": "Un elegante Carmenere con notas de pimienta negra, chocolate amargo y un final persistente.",
 		"price": 22.0,
 		"stock": 25,
@@ -38,7 +38,7 @@
 	{
 		"id": 5,
 		"name": "Casas del Bosque",
-		"image": "../images/casas-del-bosque.png",
+		"image": "./images/casas-del-bosque.png",
 		"description": "Un delicado Pinot Noir con aromas a fresa y vainilla, perfecto para platos de aves.",
 		"price": 14.25,
 		"stock": 60,
@@ -47,7 +47,7 @@
 	{
 		"id": 6,
 		"name": "Cousiño Macul",
-		"image": "../images/cousino-macul.webp",
+		"image": "./images/cousino-macul.webp",
 		"description": "Un Chardonnay fresco y equilibrado con toques de manzana verde y mantequilla.",
 		"price": 11.5,
 		"stock": 48,
@@ -56,7 +56,7 @@
 	{
 		"id": 7,
 		"name": "Valdivieso",
-		"image": "../images/valdivieso.jpg",
+		"image": "./images/valdivieso.jpg",
 		"description": "Un Single Vineyard Cabernet Sauvignon de gran cuerpo, con un sabor intenso y un largo final en boca.",
 		"price": 25.0,
 		"stock": 15,
@@ -65,7 +65,7 @@
 	{
 		"id": 8,
 		"name": "Emiliana Coyam",
-		"image": "../images/emiliana-coyam.png",
+		"image": "./images/emiliana-coyam.png",
 		"description": "Un blend orgánico que combina varias uvas tintas para crear un vino complejo y con cuerpo.",
 		"price": 35.0,
 		"stock": 20,
@@ -74,7 +74,7 @@
 	{
 		"id": 9,
 		"name": "Aresti Estate",
-		"image": "../images/aresti-estate.webp",
+		"image": "./images/aresti-estate.webp",
 		"description": "Un Malbec de Aresti con notas de frutos rojos maduros y un final especiado.",
 		"price": 13.0,
 		"stock": 70,
@@ -83,7 +83,7 @@
 	{
 		"id": 10,
 		"name": "Miguel Torres",
-		"image": "../images/miguel-torres.png",
+		"image": "./images/miguel-torres.png",
 		"description": "Un Pinot Noir de la Cordillera de Miguel Torres, elegante y con un aroma a cereza.",
 		"price": 28.5,
 		"stock": 28,
@@ -92,7 +92,7 @@
 	{
 		"id": 11,
 		"name": "Grus de Alcohuaz",
-		"image": "../images/Grus_btl.png",
+		"image": "./images/Grus_btl.png",
 		"description": "Un Syrah de viñedos de gran altura, conocido por sus notas de frutas negras y un toque mineral.",
 		"price": 45.0,
 		"stock": 10,
@@ -101,7 +101,7 @@
 	{
 		"id": 12,
 		"name": "Tabalí",
-		"image": "../images/tabali.webp",
+		"image": "./images/tabali.webp",
 		"description": "Un Chardonnay de Tabalí, fresco y mineral, con toques cítricos y un final crujiente.",
 		"price": 17.0,
 		"stock": 33,
@@ -110,7 +110,7 @@
 	{
 		"id": 13,
 		"name": "Undurraga",
-		"image": "https://example.com/images/undurraga-brut.jpg",
+		"image": "./images/undurraga.webp",
 		"description": "Un espumoso Brut Royal de Undurraga, ideal para celebraciones con sus notas de manzana verde y pan tostado.",
 		"price": 16.0,
 		"stock": 40,
@@ -119,7 +119,7 @@
 	{
 		"id": 14,
 		"name": "Viña Vik",
-		"image": "../images/vik.jpeg",
+		"image": "./images/vik.jpeg",
 		"description": "Un blend de alta gama de Viña Vik, conocido por su complejidad, cuerpo completo y larga guarda.",
 		"price": 150.0,
 		"stock": 8,
@@ -128,7 +128,7 @@
 	{
 		"id": 15,
 		"name": "Leyda Las Brisas",
-		"image": "../images/leyda.png",
+		"image": "./images/leyda.png",
 		"description": "Un Pinot Noir de Leyda, de aromas frescos y un perfil de frutos rojos, con notas de tierra húmeda.",
 		"price": 19.99,
 		"stock": 29,
@@ -137,7 +137,7 @@
 	{
 		"id": 16,
 		"name": "Montes Alpha",
-		"image": "../images/montes-alpha.webp",
+		"image": "./images/montes-alpha.webp",
 		"description": "Un Syrah intenso y especiado de Montes Alpha, con un sabor profundo y un final largo.",
 		"price": 20.5,
 		"stock": 22,
@@ -146,7 +146,7 @@
 	{
 		"id": 17,
 		"name": "Carmen",
-		"image": "../images/carmen.webp",
+		"image": "./images/carmen.webp",
 		"description": "Un clásico Carmenere de la línea Gran Reserva de Carmen, con aromas de pimientos asados y vainilla.",
 		"price": 17.5,
 		"stock": 38,
@@ -155,7 +155,7 @@
 	{
 		"id": 18,
 		"name": "Santa Rita",
-		"image": "../images/santa-rita.jpg",
+		"image": "./images/santa-rita.jpg",
 		"description": "Un Cabernet Sauvignon robusto, con un perfil de frutos negros y especias, ideal para acompañar carnes rojas.",
 		"price": 23.0,
 		"stock": 27,
@@ -164,7 +164,7 @@
 	{
 		"id": 19,
 		"name": "Lapostolle",
-		"image": "../images/lapostolle.webp",
+		"image": "./images/lapostolle.webp",
 		"description": "Un elegante Cabernet Sauvignon de Lapostolle, conocido por su estructura y complejidad.",
 		"price": 30.0,
 		"stock": 19,
@@ -173,7 +173,7 @@
 	{
 		"id": 20,
 		"name": "Concha y Toro",
-		"image": "../images/conchaytoro.avif",
+		"image": "./images/conchaytoro.avif",
 		"description": "Un Merlot suave y fácil de beber, con sabores a ciruela y un toque de caramelo.",
 		"price": 9.99,
 		"stock": 55,
@@ -182,7 +182,7 @@
 	{
 		"id": 21,
 		"name": "Viña Maipo",
-		"image": "../images/maipo.webp",
+		"image": "./images/maipo.webp",
 		"description": "Un refrescante Sauvignon Blanc de Viña Maipo, con aromas de frutas cítricas y un final vivo.",
 		"price": 8.5,
 		"stock": 65,
@@ -191,7 +191,7 @@
 	{
 		"id": 22,
 		"name": "Tarapacá",
-		"image": "../images/tarapaca.jpg",
+		"image": "./images/tarapaca.jpg",
 		"description": "Un Cabernet Sauvignon de gran reserva, con notas de grosella negra, tabaco y cuero.",
 		"price": 16.0,
 		"stock": 30,
@@ -200,7 +200,7 @@
 	{
 		"id": 23,
 		"name": "Ventisquero",
-		"image": "../images/ventisquero.webp",
+		"image": "./images/ventisquero.webp",
 		"description": "Un Sauvignon Blanc Reserva de Ventisquero, con aromas de hierbas y un toque mineral.",
 		"price": 12.0,
 		"stock": 45,
@@ -209,7 +209,7 @@
 	{
 		"id": 24,
 		"name": "Gato Negro",
-		"image": "../images/gato-negro.jpg",
+		"image": "./images/gato-negro.jpg",
 		"description": "Un clásico Carmenere Gato Negro, con notas de frutos rojos y pimienta, muy versátil para comidas.",
 		"price": 6.99,
 		"stock": 80,
@@ -218,7 +218,7 @@
 	{
 		"id": 25,
 		"name": "Morandé Pionero",
-		"image": "../images/pionero.jpg",
+		"image": "./images/pionero.jpg",
 		"description": "Un Chardonnay fresco y ligero de Morandé, ideal para el aperitivo o platos de pescado.",
 		"price": 9.0,
 		"stock": 55,
@@ -227,7 +227,7 @@
 	{
 		"id": 26,
 		"name": "Redbreast 12 Year Old",
-		"image": "../images/Redbreasttransp.webp",
+		"image": "./images/Redbreasttransp.webp",
 		"description": "Un whisky irlandés 'pot still' de alta calidad, con notas de cerezas secas, jerez y especias.",
 		"price": 65.0,
 		"stock": 25,
@@ -236,7 +236,7 @@
 	{
 		"id": 27,
 		"name": "Highland Park 12 Year Old Viking Honour",
-		"image": "../images/highland_park_12yr_nv_750.jpg",
+		"image": "./images/highland_park_12yr_nv_750.jpg",
 		"description": "Un single malt de las Islas Orcadas, con un sabor a turba, miel y especias, muy equilibrado.",
 		"price": 60.0,
 		"stock": 40,
@@ -245,7 +245,7 @@
 	{
 		"id": 28,
 		"name": "Old Pulteney 12 Year Old",
-		"image": "../images/old_pulteney_12_nv_750.webp",
+		"image": "./images/old_pulteney_12_nv_750.webp",
 		"description": "Un single malt del norte de Escocia, con notas de sal marina, vainilla y caramelo.",
 		"price": 50.0,
 		"stock": 35,
@@ -254,7 +254,7 @@
 	{
 		"id": 29,
 		"name": "The Dalmore 15 Year Old",
-		"image": "../images/dalmore.webp",
+		"image": "./images/dalmore.webp",
 		"description": "Un single malt de las Highlands, madurado en barricas de jerez, con notas de naranja, chocolate y especias.",
 		"price": 95.0,
 		"stock": 20,
@@ -263,7 +263,7 @@
 	{
 		"id": 30,
 		"name": "Balcones Texas Single Malt",
-		"image": "../images/balcones_single_malt_rum_cask_finish_3d61d0f7-bcb9-416d-9189-57bf4ebffb4b.webp",
+		"image": "./images/balcones_single_malt_rum_cask_finish_3d61d0f7-bcb9-416d-9189-57bf4ebffb4b.webp",
 		"description": "Un single malt americano con un perfil robusto y ahumado, con notas de roble tostado y cereales.",
 		"price": 65.0,
 		"stock": 15,
@@ -272,7 +272,7 @@
 	{
 		"id": 31,
 		"name": "Bowmore 12 Year Old",
-		"image": "../images/bowmore_12yr_nv_750.webp",
+		"image": "./images/bowmore_12yr_nv_750.webp",
 		"description": "Un single malt de Islay con un sabor a turba, limón y miel, con un final especiado.",
 		"price": 58.0,
 		"stock": 30,
@@ -281,7 +281,7 @@
 	{
 		"id": 32,
 		"name": "Angel's Envy Kentucky Straight Bourbon",
-		"image": "../images/angels_envy_bourbon_nestorliquor.webp",
+		"image": "./images/angels_envy_bourbon_nestorliquor.webp",
 		"description": "Un bourbon terminado en barricas de Oporto, con un sabor a vainilla, caramelo y un toque afrutado.",
 		"price": 55.0,
 		"stock": 40,
@@ -290,7 +290,7 @@
 	{
 		"id": 33,
 		"name": "Eagle Rare 10 Year Old",
-		"image": "../images/eagle.webp",
+		"image": "./images/eagle.webp",
 		"description": "Un bourbon de 10 años, con un sabor a cerezas, naranja y un final especiado y largo.",
 		"price": 35.0,
 		"stock": 50,
@@ -299,7 +299,7 @@
 	{
 		"id": 34,
 		"name": "Aberlour 12 Year Old Double Cask Matured",
-		"image": "../images/alberlour.jpg",
+		"image": "./images/alberlour.jpg",
 		"description": "Un single malt con un sabor dulce a manzana, canela y un final a roble, madurado en dos barricas.",
 		"price": 60.0,
 		"stock": 35,
@@ -308,7 +308,7 @@
 	{
 		"id": 35,
 		"name": "Monkey Shoulder Blended Malt",
-		"image": "../images/monkey.jpg",
+		"image": "./images/monkey.jpg",
 		"description": "Un blended malt suave y cremoso, con notas de vainilla, naranja y especias, ideal para cócteles.",
 		"price": 45.0,
 		"stock": 65,
@@ -317,7 +317,7 @@
 	{
 		"id": 36,
 		"name": "Basil Hayden's Kentucky Straight Bourbon",
-		"image": "../images/Basil_Hayden_Kentucky_Straight_Bourbon_Whiskey_LoveScotch_5.webp",
+		"image": "./images/Basil_Hayden_Kentucky_Straight_Bourbon_Whiskey_LoveScotch_5.webp",
 		"description": "Un bourbon ligero y sabroso, con un perfil especiado y notas de menta y té.",
 		"price": 48.0,
 		"stock": 55,
@@ -326,7 +326,7 @@
 	{
 		"id": 37,
 		"name": "Glenmorangie Original 10 Year Old",
-		"image": "../images/glenmorangie.webp",
+		"image": "./images/glenmorangie.webp",
 		"description": "Un single malt suave y afrutado, con notas de cítricos, vainilla y un final cremoso.",
 		"price": 55.0,
 		"stock": 50,
@@ -335,7 +335,7 @@
 	{
 		"id": 38,
 		"name": "Arran 10 Year Old Single Malt",
-		"image": "../images/Arran_10_year_old_Single_Malt_Detail_product_detail_rebrand.webp",
+		"image": "./images/Arran_10_year_old_Single_Malt_Detail_product_detail_rebrand.webp",
 		"description": "Un single malt sin turba, con un sabor afrutado, con notas de cítricos y un final especiado.",
 		"price": 45.0,
 		"stock": 40,
@@ -344,7 +344,7 @@
 	{
 		"id": 39,
 		"name": "Russell's Reserve 10 Year Old Bourbon",
-		"image": "../images/russell.png",
+		"image": "./images/russell.png",
 		"description": "Un bourbon de 10 años, con un sabor a caramelo, miel y roble tostado, con un final largo.",
 		"price": 40.0,
 		"stock": 45,
@@ -353,7 +353,7 @@
 	{
 		"id": 40,
 		"name": "The Dalmore 12 Year Old",
-		"image": "../images/dalmore12.webp",
+		"image": "./images/dalmore12.webp",
 		"description": "Un single malt de gran cuerpo, con notas de naranja, chocolate y jerez, muy complejo y elegante.",
 		"price": 95.0,
 		"stock": 25,
@@ -362,7 +362,7 @@
 	{
 		"id": 41,
 		"name": "Yamazaki 12 Year Old",
-		"image": "../images/yamazaki.avif",
+		"image": "./images/yamazaki.avif",
 		"description": "Un single malt japonés, con un sabor a frutos secos, miel y un final a roble Mizunara.",
 		"price": 120.0,
 		"stock": 10,
@@ -371,7 +371,7 @@
 	{
 		"id": 42,
 		"name": "Nikka From The Barrel",
-		"image": "../images/Nikka_Barrel_800x800_59b2f205-7bf0-4db6-9748-49bdb4932792_525x700.webp",
+		"image": "./images/Nikka_Barrel_800x800_59b2f205-7bf0-4db6-9748-49bdb4932792_525x700.webp",
 		"description": "Un blended whisky japonés de alta calidad, con un sabor a fruta, caramelo y especias, muy robusto.",
 		"price": 70.0,
 		"stock": 20,
@@ -380,7 +380,7 @@
 	{
 		"id": 43,
 		"name": "Hibiki Japanese Harmony",
-		"image": "../images/hibikki.jpg",
+		"image": "./images/hibikki.jpg",
 		"description": "Un blended japonés suave y equilibrado, con notas de naranja, miel y un final especiado.",
 		"price": 90.0,
 		"stock": 15,
@@ -389,7 +389,7 @@
 	{
 		"id": 44,
 		"name": "Akashi Blended Japanese Whisky",
-		"image": "../images/akashi.jpeg",
+		"image": "./images/akashi.jpeg",
 		"description": "Un whisky japonés ligero, con un perfil de sabor a frutas blancas, vainilla y un toque de jerez.",
 		"price": 45.0,
 		"stock": 30,
@@ -398,7 +398,7 @@
 	{
 		"id": 45,
 		"name": "Kavalan Single Malt",
-		"image": "../images/Kavalan-Distillery-Reserve-Rum-Cask--Single-Cask-Strength-Single-Malt-Whisky.webp",
+		"image": "./images/Kavalan-Distillery-Reserve-Rum-Cask--Single-Cask-Strength-Single-Malt-Whisky.webp",
 		"description": "Un single malt de Taiwán, con un sabor a fruta tropical, vainilla y un toque de especias.",
 		"price": 80.0,
 		"stock": 10,
@@ -407,7 +407,7 @@
 	{
 		"id": 46,
 		"name": "Rittenhouse Straight Rye Whiskey",
-		"image": "../images/rittenhouse.avif",
+		"image": "./images/rittenhouse.avif",
 		"description": "Un rye whiskey robusto y especiado, ideal para cócteles, con notas de chocolate y roble.",
 		"price": 30.0,
 		"stock": 45,
@@ -416,7 +416,7 @@
 	{
 		"id": 47,
 		"name": "Woodford Reserve Straight Rye Whiskey",
-		"image": "../images/woodford.jpeg",
+		"image": "./images/woodford.jpeg",
 		"description": "Un rye whiskey con un perfil especiado, con notas de pimienta y frutas tropicales.",
 		"price": 45.0,
 		"stock": 40,
@@ -425,7 +425,7 @@
 	{
 		"id": 48,
 		"name": "WhistlePig 10 Year Old Rye",
-		"image": "../images/WhistlePig-10-Year-Straight-Rye-375ml.webp",
+		"image": "./images/WhistlePig-10-Year-Straight-Rye-375ml.webp",
 		"description": "Un rye whiskey de 10 años, con un sabor a caramelo, canela y un final especiado y largo.",
 		"price": 85.0,
 		"stock": 20,
@@ -434,7 +434,7 @@
 	{
 		"id": 49,
 		"name": "Michter's US*1 Single Barrel Bourbon",
-		"image": "../images/michters-us-1-limited-release-barrel-strength-rye-whiskey-109-0-proof-750ml_0_600x.webp",
+		"image": "./images/michters-us-1-limited-release-barrel-strength-rye-whiskey-109-0-proof-750ml_0_600x.webp",
 		"description": "Un bourbon de un solo barril, con notas de caramelo, vainilla y un final especiado y rico.",
 		"price": 50.0,
 		"stock": 35,
@@ -443,7 +443,7 @@
 	{
 		"id": 50,
 		"name": "Elijah Craig Small Batch",
-		"image": "../images/ElijahCraigSmallBatchTransp_grande.webp",
+		"image": "./images/ElijahCraigSmallBatchTransp_grande.webp",
 		"description": "Un small batch bourbon con un sabor a vainilla, caramelo y un toque de canela y roble.",
 		"price": 35.0,
 		"stock": 50,
