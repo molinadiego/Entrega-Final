@@ -1,7 +1,7 @@
 async function getDatos() {
 	try {
 		// La ruta "/json/products.json" asume que tienes una carpeta "json" en la raíz de tu proyecto.
-		const response = await fetch("./json/products.json");
+		const response = await fetch("/json/products.json");
 
 		// 1. Verificar si la respuesta fue exitosa (código de estado 200-299)
 		if (!response.ok) {
