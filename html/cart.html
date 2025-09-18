@@ -12,7 +12,11 @@
 		<div id="cart-summary" class="cart-total"></div>
 		<div class="btn-pagar-volver">
 			<button class="btn-pay" id="btnPay">Pagar</button>
-			<button class="btn-back" id="btnBack" onclick="history.back()">
+			<button
+				class="btn-back"
+				id="btnBack"
+				onclick="window.location.href='../index.html?nocache=' + new Date().getTime();"
+			>
 				Volver
 			</button>
 		</div>
