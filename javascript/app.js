@@ -180,11 +180,10 @@ cartBtn.addEventListener("click", () => {
 document.addEventListener("DOMContentLoaded", async () => {
 	// Asume que 'products' está cargado aquí
 	let products = await getProducts();
+	const cartFromStorage = getCartFromStorage();
+	fillCartButton(cartFromStorage);
 	renderProducts(products);
 
 	setupEventListeners(products);
 	// Llama a la función para configurar el listener
 });
-
-const cartFromStorage = getCartFromStorage();
-fillCartButton(cartFromStorage);
